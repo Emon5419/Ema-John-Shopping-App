@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville:ital@1&family=Poppins:wght@200&display=swap");
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  background-color: #1c2b35;
+  padding-left: 140px;
+  padding-right: 140px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px;
+}
+.header a:hover {
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 4px;
+}
+@media screen and (max-width: 320px) {
+  .header {
+    display: grid;
+    width: 250px;
+  }
+}
