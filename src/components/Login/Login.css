@@ -49,3 +49,13 @@
    color: #ff9900;
    text-decoration: none;
 }
+
+.or-style {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.or-style p {
+   margin: 20px;
+}

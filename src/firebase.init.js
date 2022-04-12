@@ -1,17 +1,17 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth } from 'firebase/auth';
+import { getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-   apiKey: "AIzaSyCvS_9n9zVYAKT8ArdtVVBgq38qV1Xc3Po",
-   authDomain: "ema-john-sample-7ec02.firebaseapp.com",
-   projectId: "ema-john-sample-7ec02",
-   storageBucket: "ema-john-sample-7ec02.appspot.com",
-   messagingSenderId: "972423394646",
-   appId: "1:972423394646:web:fc467379734fc08b43d2f7"
+   apiKey: "AIzaSyBnLip1bvvFfBW_Yz9NDtPk6aOUgGhAWhE",
+   authDomain: "ema-john-sample1.firebaseapp.com",
+   projectId: "ema-john-sample1",
+   storageBucket: "ema-john-sample1.appspot.com",
+   messagingSenderId: "553404769715",
+   appId: "1:553404769715:web:4d0d4b0070a5dedd6a97c6"
 };
 
 // Initialize Firebase
